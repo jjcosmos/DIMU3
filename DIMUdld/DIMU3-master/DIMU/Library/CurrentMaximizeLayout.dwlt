@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 681, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 3123
+  controlID: 257
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -44,8 +44,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 371.2
-    y: 92.8
+    x: 371
+    y: 19
     width: 730
     height: 439
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -71,7 +71,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 3124
+  controlID: 232
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 3125
+  controlID: 233
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,8 +169,8 @@ MonoBehaviour:
     y: 0
     width: 369
     height: 460
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -203,9 +203,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d0480000
-    m_LastClickedID: 18640
-    m_ExpandedIDs: eadbffff00000000ec480000
+    m_SelectedIDs: f2280000
+    m_LastClickedID: 0
+    m_ExpandedIDs: e6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -321,11 +321,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.20444193, y: 0.1345999, z: -0.028393589, w: -0.96916467}
     speed: 2
-    m_Value: {x: -0.20444193, y: 0.1345999, z: -0.028393589, w: -0.96916467}
+    m_Value: {x: -0.20444195, y: 0.1345999, z: -0.028393589, w: -0.96916467}
   m_Size:
-    m_Target: 107.34011
+    m_Target: 117.8649
     speed: 2
-    m_Value: 107.34011
+    m_Value: 117.8649
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -407,7 +407,7 @@ MonoBehaviour:
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -9342
+  m_LastSelectedObjectID: 18640
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -502,14 +502,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: 56
-  m_LastProjectPath: E:\Documents\DIMUdld\DIMU3-master\DIMU
+  m_LastProjectPath: C:\Users\jason\Documents\GitHub\DIMU3\DIMUdld\DIMU3-master\DIMU
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 16420000
-    m_LastClickedID: 16918
-    m_ExpandedIDs: 00000000164200003a42000056420000384300003a430000de4400004c4500004e4500009a450000ce450000624600006a4600007c460000b4460000bc460000c447000062480000224a0000244a000000ca9a3b
+    m_SelectedIDs: 062b0000
+    m_LastClickedID: 11014
+    m_ExpandedIDs: 00000000062b0000322b00005c2b0000d42c0000d62c0000a42f0000703000007230000002310000483100003c320000483200006e320000cc320000de3200007c34000096350000e8370000ea37000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -537,7 +537,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 5e65feff
     m_LastClickedID: -105122
-    m_ExpandedIDs: 00000000164200003a42000056420000384300003a430000de4400004c4500004e4500009a450000ce450000624600006a4600007c460000b4460000bc460000c447000062480000224a0000244a000000ca9a3b
+    m_ExpandedIDs: 00000000062b0000322b00005c2b0000d42c0000d62c0000a42f0000703000007230000002310000483100003c320000483200006e320000cc320000de3200007c34000096350000e8370000ea37000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -562,9 +562,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: d0480000
-    m_LastClickedInstanceID: 18640
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: f2280000
+    m_LastClickedInstanceID: 10482
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 2a2c000040320000402f00005c330000be2a0000fe420000e2300000cc53f9ffa82b000000000000b62b000068850000ee340000364c0000ce1bf8ff
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -589,7 +589,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 63}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 56
   m_DirectoriesAreaWidth: 165
 --- !u!114 &14
