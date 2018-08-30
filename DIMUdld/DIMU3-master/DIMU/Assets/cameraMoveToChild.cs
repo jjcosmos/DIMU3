@@ -6,23 +6,35 @@ public class cameraMoveToChild : MonoBehaviour {
 
     // Use this for initialization
     public bool moveToTarget = false;
-    public bool inPosition = false;
+    public bool inPosition = true;
     Transform childPosition;
     [SerializeField] float speed = 1;
     [SerializeField] float minSnapDistance = .2f;
     [SerializeField] float waitTime = 1f;
 
 	void Start () {
-        childPosition = transform.GetChild(0).transform;
-	}
-	
-	// Update is called once per frame
-	void Update () {
+        
+        childPosition = transform.parent.transform.GetChild(0).transform;
+        inPosition = true;
 
-        if(childPosition.position != Camera.main.transform.position)
+        
+        if (childPosition.position != Camera.main.transform.position)
         {
             inPosition = false;
         }
+        
+
+        
+    }
+	
+	// Update is called once per frame
+	void Update () {
+        
+        if(Vector3.Distance(childPosition.position, Camera.main.transform.position) > .1f)
+        {
+            inPosition = false;
+        }
+        
         
 
         if (moveToTarget)
