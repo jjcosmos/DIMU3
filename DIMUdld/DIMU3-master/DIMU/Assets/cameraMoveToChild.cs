@@ -28,7 +28,7 @@ public class cameraMoveToChild : MonoBehaviour {
     }
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
         
         if(Vector3.Distance(childPosition.position, Camera.main.transform.position) > .1f)
         {

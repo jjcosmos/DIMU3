@@ -380,6 +380,7 @@
     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
     <Compile Include="Assets\RotateAroundTarget.cs" />
+    <Compile Include="Assets\SetPosOnSceneLoad.cs" />
     <Compile Include="Assets\WorldSkies\Demo\Scripts\LookCamera.cs" />
     <Compile Include="Assets\WorldSkies\Demo\Scripts\SkyboxChanger.cs" />
   </ItemGroup>
