@@ -13,7 +13,7 @@ public class cameraMoveToChild : MonoBehaviour {
     [SerializeField] float waitTime = 1f;
 
 	void Start () {
-        childPosition = transform.GetChild(0).transform;
+        childPosition = transform.parent.transform.GetChild(0).transform;
 	}
 	
 	// Update is called once per frame
