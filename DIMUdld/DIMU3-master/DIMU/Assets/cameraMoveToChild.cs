@@ -34,8 +34,6 @@ public class cameraMoveToChild : MonoBehaviour {
         {
             inPosition = false;
         }
-        
-        
 
         if (moveToTarget)
         {
