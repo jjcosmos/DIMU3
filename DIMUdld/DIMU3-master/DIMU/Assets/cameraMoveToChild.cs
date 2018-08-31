@@ -47,14 +47,21 @@ public class cameraMoveToChild : MonoBehaviour {
             Camera.main.transform.position = childPosition.position;
             moveToTarget = false;
             inPosition = true;
-            print("startinvoke");
+            Debug.Log("startinvoke");
             Invoke("MakeMove", waitTime);
-            print("endinvoke");
+            Debug.Log("endinvoke");
+            //Camera.main.GetComponent<CameraShake>().enabled = true;
+            //Invoke("endShake", Camera.main.GetComponent<CameraShake>().shakeDuration);
 
         }
         
         
 	}
+
+    void endShake()
+    {
+        Camera.main.GetComponent<CameraShake>().enabled = false;
+    }
 
     void MakeMove()
     {
