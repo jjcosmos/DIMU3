@@ -15,10 +15,19 @@ public class DIMU_Controller : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (canMove) { ProcessMovementInput(); }
+        if (canMove) {
+
+            ProcessMovementInput();
+            ProcessButtonInput();
+        }
         print(canMove);
         
 	}
+
+    private void ProcessButtonInput()
+    {
+        
+    }
 
     private void ProcessMovementInput()
     {
