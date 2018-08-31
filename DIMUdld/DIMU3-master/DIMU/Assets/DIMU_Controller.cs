@@ -8,6 +8,7 @@ public class DIMU_Controller : MonoBehaviour {
     // Use this for initialization
     [SerializeField] float speed = 10;
     [SerializeField] public static bool canMove = true;
+    public 
 	void Start () {
 		
 	}
