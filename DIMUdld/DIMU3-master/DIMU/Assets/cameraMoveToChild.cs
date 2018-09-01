@@ -74,7 +74,7 @@ public class cameraMoveToChild : MonoBehaviour {
         {
             DIMU_Controller.canMove = false;
             moveToTarget = true;
-            print("triggerEntered");
+            Debug.Log("triggerEntered");
             
         }
     }

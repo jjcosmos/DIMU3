@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BrazierBehaviour.cs" />
      <Compile Include="Assets\cameraMoveToChild.cs" />
      <Compile Include="Assets\CameraShake.cs" />
      <Compile Include="Assets\DIMU_Controller.cs" />
@@ -73,6 +74,7 @@
      <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\_Demo\ParticleManager.cs" />
      <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\AnimatedLight.cs" />
      <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\CameraShake.cs" />
+     <Compile Include="Assets\OrbBehaviour.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
@@ -120,6 +122,7 @@
      <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
      <Compile Include="Assets\RotateAroundTarget.cs" />
      <Compile Include="Assets\SetPosOnSceneLoad.cs" />
+     <Compile Include="Assets\TriggerInteractable.cs" />
      <Compile Include="Assets\WallMovement.cs" />
      <Compile Include="Assets\WorldSkies\Demo\Scripts\LookCamera.cs" />
      <Compile Include="Assets\WorldSkies\Demo\Scripts\SkyboxChanger.cs" />

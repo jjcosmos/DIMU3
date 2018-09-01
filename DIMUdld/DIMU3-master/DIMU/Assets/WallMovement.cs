@@ -2,20 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WallMovement : MonoBehaviour, IInteractable {
+public class WallMovement : TriggerInteractable, IInteractable {
 
     enum MoveState {resting, moving, finished };
 
     MoveState state;
-    [SerializeField] Transform PLAYER;
+    //[SerializeField] Transform PLAYER;
     [SerializeField] Vector3 positionalOffset;
     [SerializeField] float speed = 5;
     [SerializeField] float shakeTime;
+    [SerializeField] Transform orbRef;
     Vector3 targetPosition;
 	// Use this for initialization
 	void Start () {
         targetPosition = transform.position + positionalOffset;
-        state = MoveState.resting;
+        state = MoveState.resting; 
     }
 	
 	// Update is called once per frame
@@ -45,10 +46,14 @@ public class WallMovement : MonoBehaviour, IInteractable {
             Debug.Log("MOVING");
 
             GetComponent<CameraShake>().enabled = true;
-            DIMU_Controller.canMove = false;          
+            DIMU_Controller.canMove = false;
+
+            PLAYER.GetComponent<DIMU_Controller>().ammo -= 1;
+            orbRef.GetChild(0).GetComponent<OrbBehaviour>().isFull = false;
+            orbRef.GetChild(0).GetComponent<OrbBehaviour>().UpdateOrb();
         }
     }
-
+    /*
     void OnTriggerEnter(Collider other)
     {
         PLAYER.GetComponent<DIMU_Controller>().currentInteractTarget = transform;
@@ -58,4 +63,5 @@ public class WallMovement : MonoBehaviour, IInteractable {
     {
         PLAYER.GetComponent<DIMU_Controller>().currentInteractTarget = null;
     }
+    */
 }

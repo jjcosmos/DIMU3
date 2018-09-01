@@ -8,10 +8,15 @@ public class DIMU_Controller : MonoBehaviour {
     // Use this for initialization\
     [SerializeField] float speed = 10;
     [SerializeField] public static bool canMove = true;
+    
     public Transform currentInteractTarget;
+    public int MAX_AMM0 = 1;
+    public int ammo;
+
 	void Start () {
-		
-	}
+        ammo = 0;
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -22,7 +27,7 @@ public class DIMU_Controller : MonoBehaviour {
             //GetInteractTarget();
             ProcessButtonInput();
         }
-        print(canMove);
+        Debug.Log(canMove);
         
 	}
 

@@ -89,6 +89,8 @@ GameObject:
   - component: {fileID: 23039850066581078}
   - component: {fileID: 95618667409990620}
   - component: {fileID: 135075577595681748}
+  - component: {fileID: 135479742097693544}
+  - component: {fileID: 114287027857002904}
   m_Layer: 0
   m_Name: brazier
   m_TagString: Untagged
@@ -822,6 +824,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Target: {fileID: 4490436094963976}
   VerticalMod: 26
+--- !u!114 &114287027857002904
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1319551580918558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 705ce920c4cb1244dad4b43df9bc3efd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PLAYER: {fileID: 0}
+  orbRef: {fileID: 0}
 --- !u!114 &114549012758621874
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -859,6 +874,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!135 &135479742097693544
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1319551580918558}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3.04
+  m_Center: {x: 0, y: 0, z: 1.2224323}
 --- !u!198 &198004787197254224
 ParticleSystem:
   m_ObjectHideFlags: 1

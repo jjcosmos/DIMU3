@@ -179,6 +179,7 @@ MonoBehaviour:
   positionalOffset: {x: 0, y: -25, z: 0}
   speed: 5
   shakeTime: 5
+  orbRef: {fileID: 0}
 --- !u!135 &135064967895284792
 SphereCollider:
   m_ObjectHideFlags: 1
