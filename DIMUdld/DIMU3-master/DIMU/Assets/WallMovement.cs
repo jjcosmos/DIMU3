@@ -11,7 +11,7 @@ public class WallMovement : TriggerInteractable, IInteractable {
     [SerializeField] Vector3 positionalOffset;
     [SerializeField] float speed = 5;
     [SerializeField] float shakeTime;
-    [SerializeField] Transform orbRef;
+    //[SerializeField] Transform orbRef;
     Vector3 targetPosition;
 	// Use this for initialization
 	void Start () {
@@ -48,9 +48,7 @@ public class WallMovement : TriggerInteractable, IInteractable {
             GetComponent<CameraShake>().enabled = true;
             DIMU_Controller.canMove = false;
 
-            PLAYER.GetComponent<DIMU_Controller>().ammo -= 1;
-            orbRef.GetChild(0).GetComponent<OrbBehaviour>().isFull = false;
-            orbRef.GetChild(0).GetComponent<OrbBehaviour>().UpdateOrb();
+            SpendAmmo(-1, false);
         }
     }
     /*

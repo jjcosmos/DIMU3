@@ -7,7 +7,7 @@ public class BrazierBehaviour : TriggerInteractable, IInteractable {
 
 
     //[SerializeField] Transform PLAYER;
-    [SerializeField] Transform orbRef;
+    //[SerializeField] Transform orbRef;
     // Use this for initialization  
     void Start () {
 		
@@ -23,9 +23,7 @@ public class BrazierBehaviour : TriggerInteractable, IInteractable {
         DIMU_Controller playerController = PLAYER.GetComponent<DIMU_Controller>();
         if (playerController.ammo < playerController.MAX_AMM0)
         {
-            playerController.ammo += 1;
-            orbRef.GetChild(0).GetComponent<OrbBehaviour>().isFull = true;
-            orbRef.GetChild(0).GetComponent<OrbBehaviour>().UpdateOrb();
+            SpendAmmo(1, true);
             FXchain();
         }
     }

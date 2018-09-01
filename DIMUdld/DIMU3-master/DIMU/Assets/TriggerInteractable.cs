@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TriggerInteractable : MonoBehaviour {
     [SerializeField] public Transform PLAYER;
+    [SerializeField] public Transform orbRef;
     // Use this for initialization
     void Start () {
         PLAYER = GameObject.FindGameObjectWithTag("Player").transform;
@@ -22,5 +23,12 @@ public class TriggerInteractable : MonoBehaviour {
     void OnTriggerExit(Collider other)
     {
         PLAYER.GetComponent<DIMU_Controller>().currentInteractTarget = null;
+    }
+
+    protected void SpendAmmo(int ammoChange, bool isFull)
+    {
+        PLAYER.GetComponent<DIMU_Controller>().ammo += 1;
+        orbRef.GetChild(0).GetComponent<OrbBehaviour>().isFull = isFull;
+        orbRef.GetChild(0).GetComponent<OrbBehaviour>().UpdateOrb();
     }
 }
