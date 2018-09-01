@@ -324,21 +324,6 @@ Prefab:
       propertyPath: PLAYER
       value: 
       objectReference: {fileID: 362548925}
-    - target: {fileID: 114054452312195216, guid: 3e5b5d27bf1f51e40b900e17045f5845,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114936015343022956, guid: 3e5b5d27bf1f51e40b900e17045f5845,
-        type: 2}
-      propertyPath: shakeTime
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114054452312195216, guid: 3e5b5d27bf1f51e40b900e17045f5845,
-        type: 2}
-      propertyPath: shakeDuration
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e5b5d27bf1f51e40b900e17045f5845, type: 2}
   m_IsPrefabAsset: 0
@@ -492,15 +477,10 @@ Prefab:
       propertyPath: startingPosition
       value: 
       objectReference: {fileID: 1076290390}
-    - target: {fileID: 114067502530704678, guid: fd308c6610b2a5e4588d7ec67e9a0059,
+    - target: {fileID: 114351286073979980, guid: fd308c6610b2a5e4588d7ec67e9a0059,
         type: 2}
-      propertyPath: decreaseFactor
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114067502530704678, guid: fd308c6610b2a5e4588d7ec67e9a0059,
-        type: 2}
-      propertyPath: shakeAmount
-      value: 0.2
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd308c6610b2a5e4588d7ec67e9a0059, type: 2}

@@ -24,7 +24,6 @@ GameObject:
   - component: {fileID: 114351286073979980}
   - component: {fileID: 114554060570299298}
   - component: {fileID: 114063943738939752}
-  - component: {fileID: 114067502530704678}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -104,21 +103,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingPosition: {fileID: 0}
---- !u!114 &114067502530704678
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1708149672270414}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6443e1cec634ea440afa47f2cf007280, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  camTransform: {fileID: 4497203845373992}
-  shakeDuration: 0.5
-  shakeAmount: 0.7
-  decreaseFactor: 1
 --- !u!114 &114351286073979980
 MonoBehaviour:
   m_ObjectHideFlags: 1
