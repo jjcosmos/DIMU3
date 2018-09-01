@@ -367,6 +367,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  currentInteractTarget: {fileID: 0}
 --- !u!135 &135389915003617896
 SphereCollider:
   m_ObjectHideFlags: 1

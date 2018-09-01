@@ -160,7 +160,6 @@ GameObject:
   - component: {fileID: 95295743397732972}
   - component: {fileID: 114145163395954012}
   - component: {fileID: 96922588973595802}
-  - component: {fileID: 114849456029789388}
   m_Layer: 0
   m_Name: fireFairy
   m_TagString: Untagged
@@ -310,7 +309,7 @@ Transform:
   m_GameObject: {fileID: 1432697974232068}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3.1699, y: 3.1699, z: 3.1699}
   m_Children: []
   m_Father: {fileID: 4323498422585630}
   m_RootOrder: 0
@@ -322,8 +321,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1319551580918558}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 8.13, y: -0.93, z: -13.87}
-  m_LocalScale: {x: 1.7605039, y: 1.7605057, z: 1.7605057}
+  m_LocalPosition: {x: -46.6, y: -1.1, z: 47.4}
+  m_LocalScale: {x: 7.394116, y: 7.3941236, z: 7.3941236}
   m_Children:
   - {fileID: 4534098107453036}
   - {fileID: 4023558790349300}
@@ -822,7 +821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Target: {fileID: 4490436094963976}
-  VerticalMod: 5.8
+  VerticalMod: 26
 --- !u!114 &114549012758621874
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -836,18 +835,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Target: {fileID: 4490436094963976}
   rotationSpeed: 120
---- !u!114 &114849456029789388
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1617242477169922}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84c9f5f2a5dce924fb3aa76b21aa7a46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 4323498422585630}
 --- !u!135 &135075577595681748
 SphereCollider:
   m_ObjectHideFlags: 1

@@ -27,13 +27,13 @@ MonoBehaviour:
   fog:
     m_Enabled: 1
     m_Settings:
-      excludeSkybox: 1
+      excludeSkybox: 0
   antialiasing:
     m_Enabled: 1
     m_Settings:
       method: 0
       fxaaSettings:
-        preset: 2
+        preset: 3
       taaSettings:
         jitterSpread: 0.75
         sharpen: 0.3
@@ -80,7 +80,7 @@ MonoBehaviour:
     m_Enabled: 0
     m_Settings:
       shutterAngle: 270
-      sampleCount: 10
+      sampleCount: 23
       frameBlending: 0
   eyeAdaptation:
     m_Enabled: 0
@@ -100,14 +100,14 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       bloom:
-        intensity: 0.5
+        intensity: 0.3
         threshold: 1.1
-        softKnee: 0.775
-        radius: 4.78
+        softKnee: 0.61
+        radius: 2.66
         antiFlicker: 0
       lensDirt:
         texture: {fileID: 0}
-        intensity: 3
+        intensity: 2
   colorGrading:
     m_Enabled: 0
     m_Settings:
@@ -308,24 +308,24 @@ MonoBehaviour:
     m_Enabled: 0
     m_Settings:
       spectralTexture: {fileID: 0}
-      intensity: 0.1
+      intensity: 0.336
   grain:
     m_Enabled: 0
     m_Settings:
       colored: 1
-      intensity: 0.5
-      size: 1
-      luminanceContribution: 0.8
+      intensity: 1
+      size: 0.3
+      luminanceContribution: 1
   vignette:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       mode: 0
       color: {r: 0, g: 0, b: 0, a: 1}
       center: {x: 0.5, y: 0.5}
-      intensity: 0.45
-      smoothness: 0.2
-      roundness: 1
-      mask: {fileID: 0}
+      intensity: 0.305
+      smoothness: 1
+      roundness: 0.872
+      mask: {fileID: 2800000, guid: 0c6271a290ef75b4c97d58746c86c5b8, type: 3}
       opacity: 1
       rounded: 0
   dithering:
