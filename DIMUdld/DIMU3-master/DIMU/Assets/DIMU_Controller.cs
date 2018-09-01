@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class DIMU_Controller : MonoBehaviour {
 
-    // Use this for initialization
+    // Use this for initialization\
     [SerializeField] float speed = 10;
     [SerializeField] public static bool canMove = true;
-    public 
+    public Transform currentInteractTarget;
 	void Start () {
 		
 	}
@@ -19,15 +19,21 @@ public class DIMU_Controller : MonoBehaviour {
         if (canMove) {
 
             ProcessMovementInput();
+            //GetInteractTarget();
             ProcessButtonInput();
         }
         print(canMove);
         
 	}
 
+
+
     private void ProcessButtonInput()
     {
-        
+        if(currentInteractTarget != null && Input.GetButtonDown("Fire1") && currentInteractTarget.GetComponent<IInteractable>() != null)
+        {
+            currentInteractTarget.GetComponent<IInteractable>().interact();
+        }
     }
 
     private void ProcessMovementInput()

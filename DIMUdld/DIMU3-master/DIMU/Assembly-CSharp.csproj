@@ -120,6 +120,7 @@
      <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
      <Compile Include="Assets\RotateAroundTarget.cs" />
      <Compile Include="Assets\SetPosOnSceneLoad.cs" />
+     <Compile Include="Assets\WallMovement.cs" />
      <Compile Include="Assets\WorldSkies\Demo\Scripts\LookCamera.cs" />
      <Compile Include="Assets\WorldSkies\Demo\Scripts\SkyboxChanger.cs" />
      <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
