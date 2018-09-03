@@ -238,7 +238,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1923468078223924}
   m_LocalRotation: {x: -0.6532814, y: 0.27059826, z: 0.2705982, w: 0.65328145}
-  m_LocalPosition: {x: 22.81, y: -1.35, z: 24.31}
+  m_LocalPosition: {x: 22.81, y: -1.7, z: 24.31}
   m_LocalScale: {x: 4.955879, y: 1, z: 0.25103}
   m_Children: []
   m_Father: {fileID: 4652148286134400}
@@ -308,7 +308,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1870163394586098}
   m_LocalRotation: {x: -0.27059808, y: 0.6532815, z: 0.65328145, w: 0.27059823}
-  m_LocalPosition: {x: 23.59, y: -1.35, z: -23.18}
+  m_LocalPosition: {x: 23.59, y: -1.7, z: -23.18}
   m_LocalScale: {x: 4.955879, y: 1, z: 0.25103}
   m_Children: []
   m_Father: {fileID: 4652148286134400}
@@ -353,7 +353,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1342692806719508}
   m_LocalRotation: {x: -0.27059808, y: 0.6532815, z: 0.65328145, w: 0.27059823}
-  m_LocalPosition: {x: -14.89, y: -1.35, z: 15.3}
+  m_LocalPosition: {x: -14.89, y: -1.7, z: 15.3}
   m_LocalScale: {x: 4.9558845, y: 1.0000005, z: 0.25103012}
   m_Children: []
   m_Father: {fileID: 4652148286134400}
@@ -379,7 +379,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1086067134312910}
   m_LocalRotation: {x: -0.6532814, y: 0.27059826, z: 0.2705982, w: 0.65328145}
-  m_LocalPosition: {x: -15.6, y: -1.35, z: -14.11}
+  m_LocalPosition: {x: -15.6, y: -1.7, z: -14.11}
   m_LocalScale: {x: 4.9558764, y: 1, z: 0.2510277}
   m_Children: []
   m_Father: {fileID: 4652148286134400}
@@ -1018,6 +1018,7 @@ MonoBehaviour:
   degreesPerSecond: 0
   amplitude: 0.5
   frequency: 1
+  posOffset: {x: 0, y: 0, z: 0}
 --- !u!114 &114397368786358868
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1032,6 +1033,7 @@ MonoBehaviour:
   degreesPerSecond: 0
   amplitude: 0.5
   frequency: 1
+  posOffset: {x: 0, y: 0, z: 0}
 --- !u!114 &114448756984809404
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1062,6 +1064,7 @@ MonoBehaviour:
   degreesPerSecond: 0
   amplitude: 0.5
   frequency: 1
+  posOffset: {x: 0, y: 0, z: 0}
 --- !u!114 &114851327379513982
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1076,6 +1079,7 @@ MonoBehaviour:
   degreesPerSecond: 0
   amplitude: 0.5
   frequency: 1
+  posOffset: {x: 0, y: 0, z: 0}
 --- !u!114 &114990546258692002
 MonoBehaviour:
   m_ObjectHideFlags: 1

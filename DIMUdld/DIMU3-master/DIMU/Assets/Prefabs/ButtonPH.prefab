@@ -194,7 +194,7 @@ MonoBehaviour:
   orbRef: {fileID: 0}
   BridgeTarget: {fileID: 0}
   StartingPosOffset: {x: 0, y: -10, z: 0}
-  moveSpeed: 5
+  moveSpeed: 3
 --- !u!114 &114644262956360992
 MonoBehaviour:
   m_ObjectHideFlags: 1
