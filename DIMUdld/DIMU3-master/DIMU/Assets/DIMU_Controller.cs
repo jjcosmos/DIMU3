@@ -47,6 +47,7 @@ public class DIMU_Controller : MonoBehaviour {
         float VInput = Input.GetAxis("Vertical") * speed;
         float HInput = Input.GetAxis("Horizontal") * speed;
         Vector3 MoveVector = new Vector3(HInput, 0, VInput);
+        MoveVector = Vector3.ClampMagnitude(MoveVector, speed);
         if (VInput != 0 || HInput != 0)
         {
             this.transform.rotation = Quaternion.LookRotation(MoveVector);

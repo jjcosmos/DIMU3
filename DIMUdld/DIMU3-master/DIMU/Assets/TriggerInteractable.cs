@@ -27,7 +27,7 @@ public class TriggerInteractable : MonoBehaviour {
 
     protected void SpendAmmo(int ammoChange, bool isFull)
     {
-        PLAYER.GetComponent<DIMU_Controller>().ammo += 1;
+        PLAYER.GetComponent<DIMU_Controller>().ammo += ammoChange;
         orbRef.GetChild(0).GetComponent<OrbBehaviour>().isFull = isFull;
         orbRef.GetChild(0).GetComponent<OrbBehaviour>().UpdateOrb();
     }

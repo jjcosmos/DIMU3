@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\BrazierBehaviour.cs" />
+     <Compile Include="Assets\ButtonBehaviour.cs" />
      <Compile Include="Assets\cameraMoveToChild.cs" />
      <Compile Include="Assets\CameraShake.cs" />
      <Compile Include="Assets\DIMU_Controller.cs" />

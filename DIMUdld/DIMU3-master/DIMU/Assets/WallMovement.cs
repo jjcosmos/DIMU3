@@ -40,7 +40,7 @@ public class WallMovement : TriggerInteractable, IInteractable {
 
     public void interact()
     {
-        if(state == MoveState.resting)
+        if(state == MoveState.resting && PLAYER.GetComponent<DIMU_Controller>().ammo > 0)
         {
             state = MoveState.moving;
             Debug.Log("MOVING");
