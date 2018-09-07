@@ -44,7 +44,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -89,7 +89,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000002, guid: 4b06350197ea1de46a05044283256090,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -311,6 +312,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 114054452312195216, guid: 3e5b5d27bf1f51e40b900e17045f5845,
+        type: 2}
+      propertyPath: camTransform
+      value: 
+      objectReference: {fileID: 282840814}
     - target: {fileID: 114936015343022956, guid: 3e5b5d27bf1f51e40b900e17045f5845,
         type: 2}
       propertyPath: PLAYER
@@ -321,11 +327,6 @@ Prefab:
       propertyPath: orbRef
       value: 
       objectReference: {fileID: 1864649880}
-    - target: {fileID: 114054452312195216, guid: 3e5b5d27bf1f51e40b900e17045f5845,
-        type: 2}
-      propertyPath: camTransform
-      value: 
-      objectReference: {fileID: 282840814}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e5b5d27bf1f51e40b900e17045f5845, type: 2}
   m_IsPrefabAsset: 0

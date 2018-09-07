@@ -22,12 +22,14 @@ public class CameraShake : MonoBehaviour
 		{
 			camTransform = GetComponent(typeof(Transform)) as Transform;
 		}
+        
 	}
 	
 	void OnEnable()
 	{
 		originalPos = camTransform.localPosition;
-	}
+        shakeDuration = 10;
+    }
 
 	void Update()
 	{

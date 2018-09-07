@@ -17,14 +17,14 @@ public class Floater : MonoBehaviour
     Vector3 tempPos = new Vector3();
 
     // Use this for initialization
-    void Start()
+    protected void Start()
     {
         // Store the starting position & rotation of the object
         posOffset = transform.position;
     }
 
     // Update is called once per frame
-    void Update()
+    protected void Update()
     {
         // Spin object around Y-Axis
         transform.Rotate(new Vector3(0f, Time.deltaTime * degreesPerSecond, 0f), Space.World);

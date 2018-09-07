@@ -176,10 +176,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PLAYER: {fileID: 0}
+  orbRef: {fileID: 0}
+  requiresPower: 0
+  runeFX: {fileID: 4618423514330930, guid: 99536da3903767a4dbe3ebd72b376555, type: 2}
   positionalOffset: {x: 0, y: -25, z: 0}
   speed: 5
   shakeTime: 5
-  orbRef: {fileID: 0}
+  runeoffset: {x: 0, y: 20, z: 0}
 --- !u!135 &135064967895284792
 SphereCollider:
   m_ObjectHideFlags: 1

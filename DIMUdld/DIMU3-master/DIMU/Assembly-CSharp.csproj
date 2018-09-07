@@ -122,6 +122,7 @@
      <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
      <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
      <Compile Include="Assets\RotateAroundTarget.cs" />
+     <Compile Include="Assets\RuneController.cs" />
      <Compile Include="Assets\SetPosOnSceneLoad.cs" />
      <Compile Include="Assets\TriggerInteractable.cs" />
      <Compile Include="Assets\WallMovement.cs" />
