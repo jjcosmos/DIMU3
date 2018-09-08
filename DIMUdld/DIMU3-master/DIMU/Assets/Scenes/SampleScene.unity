@@ -653,6 +653,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4236641101376720, guid: 0a4b732e8da3cb841aa65b3b7baf6031,
     type: 2}
   m_PrefabInternal: {fileID: 93816803}
+--- !u!1001 &1199231213
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4883387405625176, guid: 89eba2f5a1b9c3c4abc0284ccbce403c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 98
+      objectReference: {fileID: 0}
+    - target: {fileID: 4883387405625176, guid: 89eba2f5a1b9c3c4abc0284ccbce403c, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4883387405625176, guid: 89eba2f5a1b9c3c4abc0284ccbce403c, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -98
+      objectReference: {fileID: 0}
+    - target: {fileID: 4883387405625176, guid: 89eba2f5a1b9c3c4abc0284ccbce403c, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4883387405625176, guid: 89eba2f5a1b9c3c4abc0284ccbce403c, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4883387405625176, guid: 89eba2f5a1b9c3c4abc0284ccbce403c, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4883387405625176, guid: 89eba2f5a1b9c3c4abc0284ccbce403c, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4883387405625176, guid: 89eba2f5a1b9c3c4abc0284ccbce403c, type: 2}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 114303009179100992, guid: 89eba2f5a1b9c3c4abc0284ccbce403c,
+        type: 2}
+      propertyPath: resetCameraTarget
+      value: 
+      objectReference: {fileID: 1076290390}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 89eba2f5a1b9c3c4abc0284ccbce403c, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1001 &1490808075
 Prefab:
   m_ObjectHideFlags: 0
