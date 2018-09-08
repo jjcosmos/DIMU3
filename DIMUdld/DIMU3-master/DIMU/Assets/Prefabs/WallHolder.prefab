@@ -182,7 +182,7 @@ MonoBehaviour:
   positionalOffset: {x: 0, y: -25, z: 0}
   speed: 5
   shakeTime: 5
-  runeoffset: {x: 0, y: 20, z: 0}
+  runeoffset: {x: 0, y: 15, z: 0}
 --- !u!135 &135064967895284792
 SphereCollider:
   m_ObjectHideFlags: 1

@@ -57,6 +57,7 @@
      <Compile Include="Assets\ButtonBehaviour.cs" />
      <Compile Include="Assets\cameraMoveToChild.cs" />
      <Compile Include="Assets\CameraShake.cs" />
+     <Compile Include="Assets\DeathZone.cs" />
      <Compile Include="Assets\DIMU_Controller.cs" />
      <Compile Include="Assets\Fantasy Skybox FREE\Demo\Scripts\GE_FantasySkyboxFREE_Demo.cs" />
      <Compile Include="Assets\Fantasy Skybox FREE\Demo\Scripts\GE_FantasySkyboxFREE_UIs.cs" />

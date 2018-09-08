@@ -37,7 +37,7 @@ public class cameraMoveToChild : MonoBehaviour {
 
         if (moveToTarget)
         {
-            float step = speed * Vector3.Distance(Camera.main.transform.position, childPosition.position) * Time.deltaTime;
+            float step = Mathf.Clamp(speed * Vector3.Distance(Camera.main.transform.position, childPosition.position) * Time.deltaTime, .1f, Mathf.Infinity);
             Camera.main.transform.position = Vector3.MoveTowards(Camera.main.transform.position, childPosition.position, step);
         }
     

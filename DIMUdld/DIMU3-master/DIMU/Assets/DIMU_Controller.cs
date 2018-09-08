@@ -13,9 +13,11 @@ public class DIMU_Controller : MonoBehaviour {
     public int MAX_AMM0 = 1;
     public int ammo;
 
+    public Vector3 startingPos;
+
 	void Start () {
         ammo = 0;
-
+        startingPos = transform.position;
     }
 	
 	// Update is called once per frame

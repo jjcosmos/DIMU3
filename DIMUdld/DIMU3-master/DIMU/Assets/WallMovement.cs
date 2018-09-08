@@ -52,7 +52,7 @@ public class WallMovement : TriggerInteractable, IInteractable {
             {
                 Debug.Log("Move Complete");
                 state = MoveState.resting;
-                GetComponent<SphereCollider>().enabled = false;
+                //GetComponent<SphereCollider>().enabled = false;
                 GetComponent<CameraShake>().enabled = false;
                 DIMU_Controller.canMove = true;
             }
